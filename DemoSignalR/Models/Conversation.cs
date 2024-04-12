@@ -10,7 +10,7 @@ namespace DemoSignalR.Models
         }
         public Guid Id { get; set; }
         public string Name { get; set; } = null!;
-        public List<string> users = new List<string>();
-        public List<Message> messages = new List<Message>();
+        public List<string> users { get; set; } = new List<string>();
+        public List<Message> messages { get; set; } = new List<Message>();
     }
 }
