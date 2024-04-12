@@ -1,0 +1,6 @@
+@DemoSignalR_HostAddress = http://localhost:5105
+
+GET {{DemoSignalR_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
